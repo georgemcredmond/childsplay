@@ -1,49 +1,58 @@
 * {
 	box-sizing: border-box;
 }
+
 html {
 	width: 100%;
+	background: #ABF8F8;
 }
+
 body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url('../img/bg1.png');
-	background-size: cover; 
-	background-repeat: no-repeat;
 	font-family: 'Press Start 2P';
 }
 
-
-
 header {
+	background-image: url('../img/bg1.png');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	overflow: hidden;
 }
 
 nav {
-	display: block;
+	width: 100%;
+	display: inline-table;
 	height: 50px;
-	background: white;
+	background: black;
+}
+
+#main-logo {
+	display: table-cell;
+	margin-left: 20px;
+	width: 55px;
+	height: 45px;
 }
 
 ul {
-	display: block;
+	display: table-cell;
 	margin: 0;
-	vertical-align: middle;
 }
 
 li {
 	display: inline-block;
 	font-size: 16px;
-	margin-top: 14px;
 	margin-right: 20px;
-	vertical-align: middle;
-	padding: 10px 0 10px 0;
+	color: white;
 	transition: background-color 2s
 }
 
 li:hover{
 	background-color: blue;
 }
+
 .logo {
 	width: 50px;
 	float:right;
@@ -80,6 +89,7 @@ p {
 	text-align: center;
 	margin: auto;
 }
+
 /* TABLE FORMATTING */
 
 
@@ -114,3 +124,18 @@ td {
 
 td:last-child {
   border-right: 0px;
+}
+
+/* GALLERY STYLE */
+
+#main-gallery {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.gallery {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 1%;
+	border: 3px solid black;
+}
