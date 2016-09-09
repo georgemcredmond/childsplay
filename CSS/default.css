@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	width: 100%;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/bg1.png');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	font-family: 'Press Start 2P';
+}
+
+header {
+}
+
+nav {
+	display: block;
+	height: 50px;
+	background: white;
+}
+
+ul {
+	display: block;
+	margin: 0;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 14px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+h1 {
+	margin: 90px 0 0 80px;
+	font-size: 45px;
+	font-family: 'Press Start 2P';
+}
