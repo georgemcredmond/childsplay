@@ -14,6 +14,8 @@ body {
 	font-family: 'Press Start 2P';
 }
 
+
+
 header {
 }
 
@@ -37,8 +39,27 @@ li {
 	vertical-align: middle;
 }
 
+a:hover {}
+
+a:visited {
+	color: black;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
 h1 {
-	margin: 90px 0 0 80px;
+	margin: 90px 0 20px 80px;
 	font-size: 45px;
 	font-family: 'Press Start 2P';
+}
+
+p {
+	font-family: 'Press Start 2P';
+	width: 650px;
+	margin-left: 80px;
+	text-align: justify;
+	font-size: 14px;
 }
