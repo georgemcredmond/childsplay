@@ -3,42 +3,85 @@
 }
 html {
 	width: 100%;
+	background: #ABF8F8;
 }
 body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url('../img/bg1.png');
-	background-size: cover; 
-	background-repeat: no-repeat;
 	font-family: 'Press Start 2P';
 }
 
 header {
+	background-image: url('../img/bg1.png');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	overflow: hidden;
 }
 
 nav {
-	display: block;
+	width: 100%;
+	display: inline-table;
 	height: 50px;
-	background: white;
+	background: black;
+}
+
+#main-logo {
+	display: table-cell;
+	margin-left: 20px;
+	width: 55px;
+	height: 45px;
 }
 
 ul {
-	display: block;
+	display: table-cell;
 	margin: 0;
-	vertical-align: middle;
 }
 
 li {
 	display: inline-block;
 	font-size: 16px;
-	margin-top: 14px;
 	margin-right: 20px;
-	vertical-align: middle;
+	color: white;
 }
 
 h1 {
-	margin: 90px 0 0 80px;
-	font-size: 45px;
+	margin: 80px 0 0 80px;
+	font-size: 65px;
 	font-family: 'Press Start 2P';
+}
+
+/* GALLERY STYLE */
+
+#main-gallery {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.gallery {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 1%;
+	border: 3px solid black;
+}
+
+/* FOOTER */
+
+footer {
+	display: table;
+	width: 100%;
+	height: 50px;
+	float: left;
+	clear: both;
+	background: black;
+	color: white;
+	margin-top: 2%;
+	font-size: 10px;
+}
+
+footer > p {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 20px;
 }
