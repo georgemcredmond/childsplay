@@ -151,3 +151,38 @@ td:last-child {
 	}
 
 }
+
+/* DONATE STYLE */
+#donate-content {
+	width:650px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+
+ .para {
+	font-family: 'Press Start 2P';
+	margin-left: 0;
+	text-align: justify;
+	font-size: 13px;
+	margin-bottom: 40px;
+	line-height: 26px;
+}
+
+.h2 {
+	display: inline-block;
+	font-size: 55px;
+	font-family: 'Press Start 2P';
+
+}
+
+.Donate-portion{
+	background-color: rgba(150, 150, 150, .75);
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+
+}
+
